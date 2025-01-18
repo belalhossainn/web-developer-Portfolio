@@ -227,11 +227,25 @@ main section {
 
   .skill-container,
   .resume-container,
+  .banner, nav, nav > ul,
   .about-items {
     flex-direction: column;
   }
 
   .about {
     padding: 20px;
+  }
+  .banner{
+    margin: 20px;
+  }
+  .banner-profile-pic{
+    width: 100%;
+  }
+  .header{
+    background-image: none;
+    margin: 0px;
+  }
+  .btn-primary{
+    margin: 10px;
   }
 }
